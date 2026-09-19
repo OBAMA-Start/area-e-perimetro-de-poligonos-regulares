@@ -1,8 +1,31 @@
-html {
-  color-scheme: light dark;
-  font-family: system-ui;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+@import "tailwindcss";
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/static/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../assets/fonts/static/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../assets/fonts/static/IBMPlexSans-Italic.ttf");
+}
+
+body {
+    font-family: "IBM Plex Sans", Helvetica, sans-serif;
+    /*text-transform: uppercase;*/
+}
+
+input {
+    background: white;
 }
