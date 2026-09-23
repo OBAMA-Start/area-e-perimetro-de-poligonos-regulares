@@ -47,7 +47,7 @@ export default function FormAreaPerimetro({poligono}: { poligono: Poligono }) {
     return (
       <form onSubmit={onSubmit} className="flex flex-col gap-6">
           <fieldset className="flex flex-col gap-2 ">
-              <label htmlFor="area-informada">Área (cm)</label>
+              <label htmlFor="area-informada">Área (cm²)</label>
               <input
                 {...register("area", { valueAsNumber: true })}
                 id="area-informada"
