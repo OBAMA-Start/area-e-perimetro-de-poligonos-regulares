@@ -20,12 +20,6 @@ export function Apresentacao() {
             Créditos
           </li>
         </ul>
-
-        <h5 className="font-bold text-xl mt-12">Habilidades BNCC</h5>
-        <ul className="flex gap-2 mt-2">
-          <li className="px-4 py-1 rounded-full border-violet-600 border bg-violet-800 w-fit">EF07MA13</li>
-          <li className="px-4 py-1 rounded-full border-violet-600 border bg-violet-800 w-fit">EF07MA18</li>
-        </ul>
       </article>
     </main>
   )
